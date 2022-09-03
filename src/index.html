@@ -14,24 +14,29 @@
         <div>
             <a href="" class="block py-navbar-item px-navbar-item ">logo</a>
         </div>
-        <div
-            class="block fixed top-0 bottom-0 left-0 h-full w-[22opx] bg-slate-900 shadow-2xl transition-all md:hidden">
+        <div class="block fixed top-0 bottom-0 left-0 h-full w-[22opx] bg-slate-900 shadow-2xl transition-all md:hidden">
             <ul>
                 <li><a href="/src/index.html"
-                        class="block py-navbar-item px-navbar-item transition-colors  hover:bg-slate-700">Home</a></li>
+                        class="flex items-center py-2 px-navbar-item transition-colors  hover:bg-slate-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-1">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                          </svg>
+                          
+                        Home
+                    </a></li>
                 <li><a href="#"
-                        class="block py-navbar-item px-navbar-item transition-colors  hover:bg-slate-700">Product</a>
+                        class="block py-2 px-navbar-item transition-colors  hover:bg-slate-700">Product</a>
                 </li>
                 <li><a href="#"
-                        class="block py-navbar-item px-navbar-item transition-colors  hover:bg-slate-700">About</a></li>
+                        class="block py-2 px-navbar-item transition-colors  hover:bg-slate-700">About</a></li>
                 <li><a href="#"
-                        class="block py-navbar-item px-navbar-item transition-colors  hover:bg-slate-700">Contact</a>
+                        class="block py-2 px-navbar-item transition-colors  hover:bg-slate-700">Contact</a>
                 </li>
 
             </ul>
             <ul>
                 <li class=""><a href="/scr/cart.html"
-                        class="flex items-center py-navbar-item px-navbar-item transition-colors  hover:bg-slate-700">
+                        class="flex items-center py-2 px-navbar-item transition-colors  hover:bg-slate-700">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-6 h-6 mr-2">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -41,7 +46,7 @@
                         Cart
                     </a></li>
                 <li class="relative"><a href="#"
-                        class="flex justify-between items-center py-navbar-item px-navbar-item transition-colors  hover:bg-slate-700">
+                        class="flex justify-between items-center py-2 px-navbar-item transition-colors  hover:bg-slate-700">
                         My Account
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-5 h-5 ml-3 ">
@@ -51,7 +56,7 @@
                     </a>
                     <ul class=" bg-slate-800">
                         <li><a href="/src/profile.html"
-                                class="flex items-center py-1 px-2 transition-colors  hover:bg-slate-700">
+                                class="flex items-center py-2 px-2 transition-colors  hover:bg-slate-700">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="w-6 h-5 mr-2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -61,7 +66,7 @@
                                 My Profile
                             </a></li>
                         <li><a href="/src/watchlist.html"
-                                class="flex items-center py-1 px-2 transition-colors  hover:bg-slate-700">
+                                class="flex items-center py-2 px-2 transition-colors  hover:bg-slate-700">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="w-6 h-5 mr-2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -81,7 +86,7 @@
                                 Orders
                             </a></li>
                         <li><a href="/src/logout.html"
-                                class="flex items-center py-1 px-2 transition-colors  hover:bg-slate-700">
+                                class="flex items-center py-1 px-2   transition-all hover:bg-slate-700">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="w-6 h-5 mr-2">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -93,8 +98,8 @@
 
                     </ul>
                 </li>
-                <li class="hidden"><a href="/src/login.html"
-                        class="flex items-center py-navbar-item px-navbar-items px-2 transition-colors  hover:bg-slate-700">
+                <li class="m-3 "><a href="/src/login.html"
+                        class="flex items-center py-1  px-2 rounded bg-orange-400  transition-all tracking-tight hover:tracking-wide  hover:bg-emerald-500">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-6 h-6 mr-1">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -103,8 +108,8 @@
 
                         Login
                     </a></li>
-                <li class="hidden"><a href="/src/signup.html"
-                        class="flex items-center py-1 px-2 rounded transition-colors ml-4 bg-orange-400 tracking-tight hover:tracking-wide hover:bg-emerald-500">
+                <li class="m-3"><a href="/src/signup.html"
+                        class="flex items-center py-1 px-2 rounded transition-colors bg-orange-400 tracking-tight hover:tracking-wide hover:bg-emerald-500">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -120,14 +125,20 @@
         <nav class="hidden md:block">
             <ul class="grid grid-flow-col">
                 <li><a href="/src/index.html"
-                        class="block py-navbar-item px-navbar-item transition-colors  hover:bg-slate-700">Home</a></li>
+                        class="flex items-center py-navbar-item px-navbar-item  transition-all hover:bg-slate-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-1">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                          </svg>
+                          
+                        Home
+                    </a></li>
                 <li><a href="#"
-                        class="block py-navbar-item px-navbar-item transition-colors  hover:bg-slate-700">Product</a>
+                        class="block py-navbar-item px-navbar-item  transition-all hover:bg-slate-700">Product</a>
+                </li>
+                <li><a href="#" class="block py-navbar-item px-navbar-item  transition-all hover:bg-slate-700">About</a>
                 </li>
                 <li><a href="#"
-                        class="block py-navbar-item px-navbar-item transition-colors  hover:bg-slate-700">About</a></li>
-                <li><a href="#"
-                        class="block py-navbar-item px-navbar-item transition-colors  hover:bg-slate-700">Contact</a>
+                        class="block py-navbar-item px-navbar-item  transition-all hover:bg-slate-700">Contact</a>
                 </li>
 
             </ul>
